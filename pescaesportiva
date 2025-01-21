@@ -1,0 +1,18 @@
+package pescaesportiva;
+
+public class Main {
+
+	public static void main(String [] args) {
+		
+		//objeto do tipo local(nome do objeto com letra minusculo, e o new local é a inicialização do construtor
+		Local local_1 = new Local("Tv. Carlos Maria Teixeira", "Oriximiná", "68270-000","-999", "999");
+		Local local_2 = new Local();
+		
+		local_2.imprimir();
+		System.out.println("");
+		local_2.imprimir();
+		
+	}
+}
+//o construtor obriga a variavel ter valor 
+//toda classe tem um construtor, nao precisa ser declarado
