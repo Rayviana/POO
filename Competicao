@@ -1,0 +1,23 @@
+package pescaesportiva;
+
+public class Competicao {
+	String nome;
+	String data;
+	Local local;  //dependencia
+	
+	Competicao(String nome, String data, Local local){
+		this.nome = nome;
+		this.data = data;
+		this.local = local;
+	}
+	public void cadastrarCompeticao() {
+		
+	}
+}
+         //classe = molde dos objetos
+		 //atributos de classe = variaveis globais
+		 //criar objetos na classe = construtor, mais de um construtor, pode ter mais de um construtor dentro de uma classe
+		 //declara os comportamentos = metodos
+		 //variavel local = dentro da estratura que foi criada
+		 //precisa da informacao que vem de outra classe: dependencia
+		 //heranca;
